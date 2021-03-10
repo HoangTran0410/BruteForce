@@ -41,19 +41,19 @@ const filterPassword = (
 };
 
 // filter theo de cua thay
-// filterPassword(
-//   "./data/62kcmnpass.txt",
-//   "./data/filtered-62kcmnpass2.txt",
-//   5,
-//   10,
-//   nu + lo
-// );
+filterPassword(
+  "./data/62kcmnpass.txt",
+  "./data/filtered-62kcmnpass2.txt",
+  5,
+  10,
+  nu + lo
+);
 
 // filter phone number
-filterPassword(
-  "./data/filtered-rockyou.txt",
-  "./data/filtered-phone-rockyou.txt",
-  10,
-  10,
-  nu
-);
+// filterPassword(
+//   "./data/filtered-rockyou.txt",
+//   "./data/filtered-phone-rockyou.txt",
+//   10,
+//   10,
+//   nu
+// );

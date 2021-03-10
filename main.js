@@ -4,7 +4,7 @@ const axios = require("axios");
 const File = {
   Result: "./data/result.txt",
   Removed: "./data/removed.txt",
-  Passwords: "./data/passwords/filtered-10k-common-pass.txt",
+  Passwords: "./data/passwords/1k-common-pass.txt",
 };
 
 const RemovedCombinations = [];
@@ -151,7 +151,7 @@ const bruteForce = (users, passwords, chunk = 100, excludes = []) => {
 // popular passwords
 const popular_pass_bruteforce = async () => {
   const passwords = getLines(File.Passwords);
-  const users = getUserLeft(File.Result);
+  const users = getUserLeft(File.Result).reverse();
   const excludes = getLines(File.Removed);
 
   console.log("Found " + passwords.length + " passwords.");
@@ -160,7 +160,7 @@ const popular_pass_bruteforce = async () => {
   console.log("Starting ...");
 
   let userChunk = 2;
-  let passwordChunk = 1;
+  let passwordChunk = 3;
   for (let i = 0; i < users.length / userChunk; i++) {
     console.log("[-] Begin user chunk", i);
 
