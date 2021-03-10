@@ -2,8 +2,9 @@ const fs = require("fs");
 const axios = require("axios");
 
 const File = {
-  Result: "./result.txt",
-  Removed: "./removed.txt",
+  Result: "./data/result.txt",
+  Removed: "./data/removed.txt",
+  Passwords: "./data/passwords/filtered-10k-common-pass.txt",
 };
 
 const RemovedCombinations = [];
@@ -76,8 +77,8 @@ const checkAccPromiseAny = (username, passwords, excludes = []) => {
         if (correct) {
           correctPass = password;
           break;
-        } 
-        
+        }
+
         // wrong pass
         else if (!failed) {
           console.log(
@@ -149,7 +150,7 @@ const bruteForce = (users, passwords, chunk = 100, excludes = []) => {
 
 // popular passwords
 const popular_pass_bruteforce = async () => {
-  const passwords = getLines("./data/filtered-10k-common-pass.txt");
+  const passwords = getLines(File.Passwords);
   const users = getUserLeft(File.Result);
   const excludes = getLines(File.Removed);
 
