@@ -1,0 +1,16 @@
+{
+  "name": "BaiTapCongDiem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dic_generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "promise.any": "^2.0.1"
+  }
+}

