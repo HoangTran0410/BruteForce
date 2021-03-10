@@ -1,6 +1,5 @@
 user25@sgu.com
 user32@sgu.com
-user34@sgu.com
 user35@sgu.com
 user38@sgu.com
 user42@sgu.com
