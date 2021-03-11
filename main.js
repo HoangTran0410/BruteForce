@@ -219,7 +219,7 @@ const phone_pass_bruteforce = async () => {
             await bruteForce(
               users.slice(i, i + userChunk),
               phones,
-              1,
+              3,
               excludes
             );
 
