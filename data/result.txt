@@ -45,3 +45,13 @@ user47@sgu.com:flower
 user62@sgu.com:7777777
 user30@sgu.com:password1
 user34@sgu.com:1234567890
+user60@sgu.com:555555
+user57@sgu.com:donald
+user59@sgu.com:1q2w3e4r
+user38@sgu.com:azerty
+user49@sgu.com:loveme
+user64@sgu.com:123qwe
+user61@sgu.com:lovely
+user42@sgu.com:1qaz2wsx
+user48@sgu.com:hottie
+user44@sgu.com:qwertyuiop

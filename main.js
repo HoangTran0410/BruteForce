@@ -235,8 +235,8 @@ const phone_pass_bruteforce = async () => {
 
 // ---------- Main -----------
 const main = () => {
-  popular_pass_bruteforce();
-  // phone_pass_bruteforce();
+  // popular_pass_bruteforce();
+  phone_pass_bruteforce();
   // 0890800026, 0860300011, 0880200063
 };
 
